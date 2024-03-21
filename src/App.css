@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+body {
+  padding: 2em;
+}
+
+.cont {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+button {
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+.buttonsCont {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  margin-top: 4em;
+}
